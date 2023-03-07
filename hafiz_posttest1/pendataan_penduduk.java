@@ -13,9 +13,10 @@ class menu_utama {
 }
 class create{
     String nama, jenis_kelamin, alamat, agama;
-    int nik, umur;
+    int umur;
+    long nik;
     
-    public create(String Nama, String Jenis_kelamin, String Alamat, String Agama, int Nik, int Umur){
+    public create(String Nama, String Jenis_kelamin, String Alamat, String Agama, long Nik, int Umur){
         this.nama = Nama;
         this.jenis_kelamin = Jenis_kelamin;
         this.alamat = Alamat;
